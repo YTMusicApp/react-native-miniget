@@ -1,7 +1,10 @@
-import { RequestOptions, IncomingMessage, ClientRequest, default as http } from 'http';
+// @ts-ignore
+import { RequestOptions, IncomingMessage, ClientRequest, default as http } from 'http-browserify';
 import { EventEmitter } from 'events';
-import https from 'https';
-import { PassThrough, Transform } from 'stream';
+// @ts-ignore
+import https from 'https-browserify'; 
+// @ts-ignore
+import { PassThrough, Transform } from 'stream-browserify';
 
 
 const httpLibs: {
